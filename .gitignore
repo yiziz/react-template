@@ -21,3 +21,35 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# secrets
+/config/application.yml
+/config/secrets.yml
+/config/database.yml
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# temp save files
+*~
+*.swp
+*.swo
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
